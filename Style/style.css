@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+/* universal */
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.azeret-mono {
+
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* navigation styles */
+
+nav {
+
+    max-width: 1440;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.resume-btn {
+
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    width: 228px;
+    height: 58px;
+    padding: 17px 24px;
+    background: white;
+}
+
+/* banner section styles */
+
+.banner-container {
+
+
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1440;
+    height: 652;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.banner-container h1 {
+
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.banner-container p {
+
+
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.banner-container .contact-btn {
+
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    padding: 21px 24px;
+    background: rgb(13, 19, 33);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* button style */
+
+.contact-btn a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Card Section styles */
+
+.cards-container {
+
+
+    border: 1px solid red;
+    height: 1393px;
+    width: 1140px;
+    margin: 74px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 98px 81px 98px;
+    background: rgba(13, 19, 33, 0.02);
+    gap: 48px;
+}
+
+.card-description {
+
+    text-align: left;
+
+}
+
+.card-1 {
+    border-radius: 16px;
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(90.00deg,
+            rgb(255, 255, 255),
+            rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.card-2 {
+
+    border-radius: 16px;
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(90.00deg,
+            rgb(255, 255, 255),
+            rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.card-3 {
+
+    border-radius: 16px;
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(90.00deg,
+            rgb(255, 255, 255),
+            rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.cards-container button {
+
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    width: 171px;
+    height: 47px;
+    background: white;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.cards-description h4 {
+
+    width: 390px;
+    height: 72px;
+
+
+
+
+}
+
+.cards-h3 {
+
+    text-align: center;
+    font: bold;
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+}
+
+.cards-container p {
+
+    color: rgb(13, 19, 33);
+
+}
+
+/* My Inspiration */
+
+.Inspiration {
+
+
+
+    border: 1px solid red;
+    width: 1140px;
+    height: 777px;
+    margin: 74px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding: 80px 98px 81px 98px;
+    background: rgba(13, 19, 33, 0.02);
+    gap: 150px;
+
+
+
+
+
+}
+
+.video {
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.Inspiration-etc {
+
+
+    position: static;
+    width: 852px;
+    height: 52px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+}
+
+
+.Inspiration-etc h2 {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Inspiration-etc p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Inspiration-video {
+
+    position: static;
+    width: 1120px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+
+/* skills section */
+.skills-container {
+
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+
+    padding: 30px;
+    border-radius: 5px;
+    color: rgb(13, 19, 33);
+    background-color: rgba(255, 76, 30, 0.05);
+
+    position: static;
+    width: 364px;
+    height: 300px;
+
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+
+
+
+
+}
+
+.skill h4 {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skill p {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    text-align: left;
+
+}
+
+
+.skills {
+
+
+    position: static;
+    border: 1px solid red;
+    width: 1140px;
+    height: 500px;
+    margin: 74px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding: 80px 98px 81px 98px;
+    gap: 50px;
+
+}
+
+#skill-1 {
+
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#skill-2 {
+
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#skill-3 {
+
+    border-radius: 16px;
+    background: rgba(160, 141, 19, 0.05);
+}
+
+.skill button {
+
+
+
+    flex: none;
+    align-self: stretch;
+    margin: 24px 0px;
+    border: none;
+
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+
+
+.section-title-text-center {
+
+    /* My Current Target */
+
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+.section-description-text-center {
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* I need support */
+
+.need-support {
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 16px;
+
+
+
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 314px;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
+
+
+.need-support h3 {
+
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 42px;
+
+}
+
+.need-support p {
+
+
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+
+}
+
+.sub-btn {
+
+
+
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+
+    background: white;
+    
+
+
+
+}
+
+
+.input-type-massage {
+
+
+    position: static;
+    width: 548px;
+    height: 57px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    text-align: center;
+
+
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* footer style */
+
+.row {
+
+    width: 1140px;
+    height: 100px;
+    background-position: center;
+
+    flex-direction: row;
+    text-align: center;
+
+
+
+    display: flex;
+    
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 35px;
+
+
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+
+}
+
+.social {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
